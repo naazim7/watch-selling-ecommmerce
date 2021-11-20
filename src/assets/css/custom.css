@@ -1,0 +1,247 @@
+* {
+	margin: 0px !important;
+	padding: 0px;
+}
+
+.topBanner {
+	background-image: url("../images/ecommerce-banner.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 600px;
+}
+.topBannerOverlay {
+	min-height: 600px;
+	position: absolute;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.pageBanner {
+	background-image: url("../images/banner1.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 300px;
+}
+.pageBannerOverlay {
+	min-height: 300px;
+	position: absolute;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.bannerText {
+	margin-top: 10rem !important;
+	font-size: 3rem;
+	font-family: "Raleway", sans-serif;
+}
+.bannerTextSm {
+	font-size: 15px;
+	font-family: "Montserrat", sans-serif;
+}
+.centerXY {
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+}
+.bigBtn {
+	background-color: forestgreen;
+
+	color: white;
+	padding: 10px;
+	margin-top: 1rem;
+	border-radius: 10px;
+	border: none;
+	font-weight: bold;
+}
+.bigBtn a {
+	text-decoration: none;
+	color: white;
+}
+
+.headTitle {
+	background-color: rgba(4, 5, 92, 0.623);
+	width: 100%;
+	padding: 16px;
+	font-size: 2rem;
+	color: white;
+}
+
+.footerMain {
+	background-color: rgba(4, 5, 92, 0.623);
+}
+.footerHead {
+	color: white;
+	font-size: 1rem;
+}
+.footerTitle {
+	font-size: 17px;
+}
+.footerText {
+	font-size: 13px;
+}
+.footerLink {
+	text-decoration: none;
+	font-size: 13px;
+	color: #ffffff;
+	display: block;
+	margin-top: 5px;
+}
+.footerLink:hover {
+	color: steelblue;
+}
+.copyright {
+	background-color: rgba(4, 5, 92, 0.623);
+}
+.addProduct {
+	margin: 10px;
+}
+.addProduct input {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 5px !important;
+}
+.addProduct button {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: bold !important;
+}
+.customCard {
+	box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+	width: 24rem;
+	height: 27rem;
+	margin: 10px !important;
+	font-weight: 600;
+}
+.productCard {
+	box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+	width: 24rem;
+	height: 27rem;
+	margin: 10px !important;
+	font-weight: 600;
+}
+.productCardText {
+	color: rgba(7, 103, 247, 0.918);
+	padding: 10px;
+	font-family: "Raleway", sans-serif;
+}
+
+.productImg {
+	height: 300px;
+	width: 100%;
+}
+.productImage {
+	width: 600px;
+	height: 450px;
+}
+.btnCustom {
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+	flex-direction: column !important;
+	background-color: #252468;
+	color: #ffffff;
+	font-size: 1.5rem;
+	padding: 0.5rem;
+	border-radius: 15px;
+}
+.buttonCustom {
+	background-color: rgba(0, 0, 0, 0.8);
+
+	color: white;
+	border: none;
+	padding: 8px 15px;
+	border-radius: 15px;
+}
+.buttonCustom a {
+	color: white;
+	text-decoration: none;
+}
+.dashLink {
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+	margin-left: 8px !important;
+}
+.dashLink a {
+	text-decoration: none !important;
+	font-size: 17px;
+	font-family: "Montserrat", sans-serif;
+}
+.profile {
+	height: 60px !important;
+	width: 60px;
+	border-radius: 50%;
+}
+
+.reviewCard {
+	box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+	width: 20rem;
+	height: 16rem !important;
+	margin: 4px !important;
+	font-weight: 600;
+}
+
+.counterBg {
+	background-image: url("../images/Redmi-Watch.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+
+	background-attachment: fixed;
+	background-position: center;
+	min-height: 300px;
+}
+.counterBgOverlay {
+	position: absolute;
+	width: 100%;
+	min-height: 300px;
+	background-color: rgba(0, 0, 0, 0.6);
+	left: 0;
+}
+.counter {
+	font-family: "Montserrat", sans-serif;
+	font-size: 32px;
+	color: #ffffff;
+	font-weight: 700;
+}
+
+.videoCard {
+	box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+	padding: 6rem 3rem 6rem 3rem;
+	background-color: white;
+	margin: 50px auto;
+}
+.videoIcon {
+	font-size: 4rem;
+	color: brown;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 760px) {
+	.counterBg {
+		min-height: 350px;
+	}
+	.counterBgOverlay {
+		min-height: 350px;
+	}
+	.topBanner {
+		background-image: url("../images/ecommerce-banner.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center;
+		min-height: 700px;
+	}
+	.topBannerOverlay {
+		min-height: 700px;
+		position: absolute;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+}

@@ -1,0 +1,8 @@
+.bg-error {
+	background-color: rgb(229, 196, 229);
+	padding: 50px;
+	height: 100vh;
+}
+.large-txt {
+	font-size: 8rem;
+}
